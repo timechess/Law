@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  25 APR 2025 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  25 APR 2025 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,8 +419,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-)
-No file print.aux.
+) (./print.aux)
 \openout1 = `print.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -506,7 +505,7 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
-(/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/amsfonts/umsa.fd
+ (/nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
@@ -583,10 +582,10 @@ Package rerunfilecheck Info: Checksums for `print.out':
 (rerunfilecheck)             After:  D2FA29E3D883D45F1DC8C5727A508805;1527.
  ) 
 Here is how much of TeX's memory you used:
- 15326 strings out of 473203
- 255982 string characters out of 5692202
- 666326 words of memory out of 5000000
- 37980 multiletter control sequences out of 15000+600000
+ 15329 strings out of 473203
+ 256024 string characters out of 5692202
+ 666317 words of memory out of 5000000
+ 37981 multiletter control sequences out of 15000+600000
  588662 words of font info for 144 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  80i,6n,83p,731b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s

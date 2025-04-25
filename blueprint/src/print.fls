@@ -166,6 +166,9 @@ INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+INPUT ./print.aux
+INPUT ./print.aux
+INPUT print.aux
 OUTPUT print.aux
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /nix/store/kra9qq6c1c5wqji5m3r3z46nm7rdr4dl-texlive-2024-env-texmfdist/fonts/tfm/public/cm/cmr6.tfm
