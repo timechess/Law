@@ -1,0 +1,10 @@
+name = "law"
+version = "0.1.0"
+defaultTargets = ["law"]
+
+[[lean_lib]]
+name = "Law"
+
+[[lean_exe]]
+name = "law"
+root = "Main"
