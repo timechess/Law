@@ -1,17 +1,12 @@
-{ pkgs, ... }:
-let
-  tex = (pkgs.texlive.combine {
-    inherit (pkgs.texlive)
-      scheme-full dvisvgm
-      amsmath hyperref comment;
-  });
-in pkgs.mkShell {
+{pkgs, ...}:
+pkgs.mkShell rec {
   name = "python-venv";
   venvDir = "./.venv";
 
-  packages = with pkgs; [ tex graphviz pdf2svg elan gnumake poetry ];
+  packages = with pkgs; [texliveFull graphviz pdf2svg elan gnumake poetry];
 
-
+  LD_LIBRARY_PATH =
+    pkgs.lib.makeLibraryPath ([pkgs.stdenv.cc.cc] ++ packages);
 
   shellHook = ''
     poetry install
